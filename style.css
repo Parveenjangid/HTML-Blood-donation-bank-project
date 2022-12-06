@@ -1,0 +1,100 @@
+body{
+    background-image: url(img/blood-donation_body_background.jpg);
+    margin: 0%;
+    background-color: azure;
+}
+/* Home Page CSS style */
+.head_text{
+    color: orangered;
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .head_text {
+    justify-content: center;
+    justify-items: center;
+    font-size: 12px;
+    align-content: center;
+  }
+}
+.login_box{
+    padding-left: 55%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    box-shadow: -5px -3px 5px 5px #777777;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    text-shadow: 1px 1px 2px white;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.donar_box{
+    box-shadow: 5px 5px 5px #777777;
+}
+.sear {
+    text-align: center;
+    padding-top: 30%;
+    float: left;
+  width: 100%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+#butt1{
+    height: 40px;
+    width: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+    background-color: azure;
+}
+
+/*--- Home Page CSS END ---*/
+
+/*--- Why Donate Blood? page CSS--*/
+
+#why_donate_blood_text{
+    margin-left: 5%;
+}
+#who_give_blood_text{
+    height: 40px;
+    width: 250px;
+    border-style: ridge;
+}
